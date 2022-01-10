@@ -1,9 +1,19 @@
 body {
 background: rgb(179, 175, 175);
+font-family: Verdana;
 }
 #title, .subtitle, .post_title{
 color: rgb(59, 59, 63);
 }
+#title{
+    font-size: 40px;
+    text-transform: uppercase;
+}
+a {
+    text-decoration: line-through;
+    color:#505050;
+}
+
 .post_title{
     font-size: 16px;
     font-style: italic;
@@ -22,14 +32,21 @@ color: rgb(59, 59, 63);
 .post_content{
     margin: 0%;
     margin-bottom: 15px;
+    text-transform: capitalize;
 
 }
 .post_imj{
     margin-bottom: 15px;
-    max-height: 500px;
 }
 .photo{
     border-color: #505050;
     border-radius: 50px;
     max-width: 100px;
+}
+.contact_list{
+    list-style-type: none;
+    padding-left: 15px;
+}
+.contact_list li a {
+    text-decoration: none;
 }
